@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 
 :root {
-  --primary-color: #008c8c;
-  --btn-bg-color: #eef0f5;
-  --btn-bg-hover-color: #d9dcdd;
+  --primary-color: #bbff99;
+  --btn-bg-color: #ff9999;
+  --btn-bg-hover-color: #ffec99;
   --btn-hover-text-color: #5f6164;
   --twitter-color: #55acee;
   --linkedin-color: #007bb5;
@@ -12,7 +12,7 @@
 body {
   font-family: "Raleway", sans-serif;
   margin: 0px;
-  background-image: url("/images/radiant-gradient.svg");
+  background-image: url("/images/envolpe.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -47,20 +47,6 @@ body {
   font-size: large;
 }
 
-#button-check {
-  background-color: var(--btn-bg-color);
-  color: black;
-  margin: 2rem;
-  padding: 0.5rem 1rem;
-  border-radius: 0.3rem;
-  cursor: pointer;
-}
-
-#button-check:hover {
-  background-color: var(--btn-bg-hover-color);
-  color: var(--btn-hover-text-color);
-}
-
 .link {
   text-decoration: none;
   padding: 0.5rem 1rem;
@@ -87,10 +73,6 @@ body {
   font-weight: bold;
   font-size: large;
 }
-
-/* .footer .link {
-    color: black;
-} */
 
 .footer ul {
   padding-inline-start: 0px;
@@ -121,10 +103,10 @@ body {
 }
 #button-check {
   background-image: linear-gradient(
-    to right,
-    #ff5f6d 0%,
-    #ffc371 51%,
-    #ff5f6d 100%
+    319deg,
+    #bbff99 0%,
+    #ffec99 37%,
+    #ff9999 100%
   );
 }
 #button-check {
@@ -134,7 +116,7 @@ body {
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
-  color: white;
+  color: rgb(105, 100, 100);
   border-radius: 10px;
   display: block;
   border: none;
@@ -143,6 +125,6 @@ body {
 
 #button-check:hover {
   background-position: right center;
-  color: #fff;
+  color: rgb(112, 107, 107);
   text-decoration: none;
 }
